@@ -1,0 +1,30 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+tvshell
+castd
+
+# Build output
+bin/
+dist/
+build/
+
+# Go
+*.test
+*.out
+vendor/
+
+# Profiles / runtime data
+profiles/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -18,22 +18,22 @@ Legend: `[ ]` todo · `[x]` done
 - [x] M0.9 Add `.gitignore` (binaries, profiles, build artifacts)
 
 ## M1 — Launcher UI
-- [ ] M1.1 Create `internal/ui/theme` package (colors, spacing, typography at 1080p)
-- [ ] M1.2 Overscan-safe margins (~5%)
-- [ ] M1.3 UI scale factor for 4K
-- [ ] M1.4 Top tab bar widget (Home, Library, App Store, Search, Settings)
+- [x] M1.1 Create `internal/ui/theme` package (colors, spacing, typography at 1080p)
+- [x] M1.2 Overscan-safe margins (~5%)
+- [x] M1.3 UI scale factor for 4K
+- [x] M1.4 Top tab bar widget (Home, Library, App Store, Search, Settings)
 - [ ] M1.5 Clock widget
-- [ ] M1.6 Hero shelf widget ("Continue")
-- [ ] M1.7 App row widget with focusable items
-- [ ] M1.8 "Cast to [DEVICE]" shelf widget
-- [ ] M1.9 Home screen composing all widgets
-- [ ] M1.10 Focus engine: focusable interface + focus graph
-- [ ] M1.11 Nearest-neighbor directional navigation
+- [x] M1.6 Hero shelf widget ("Continue")
+- [x] M1.7 App row widget with focusable items
+- [x] M1.8 "Cast to [DEVICE]" shelf widget
+- [x] M1.9 Home screen composing all widgets
+- [x] M1.10 Focus engine: focusable interface + focus graph
+- [x] M1.11 Nearest-neighbor directional navigation
 - [ ] M1.12 Select / Back / Home handling in focus engine
 - [ ] M1.13 Focus visual (scale ~1.1x, shadow, label, dim unfocused)
-- [ ] M1.14 Keyboard input mapping to focus engine
+- [x] M1.14 Keyboard input mapping to focus engine
 - [ ] M1.15 Fake `InputSource` for tests
-- [ ] M1.16 Unit tests for focus engine navigation
+- [x] M1.16 Unit tests for focus engine navigation
 
 ## M2 — App launching
 - [ ] M2.1 `App` struct, `AppKind` enum (`AppWeb`, `AppFlatpak`, `AppNative`)
@@ -127,3 +127,4 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] X.7 `internal/state` shell state machine
 - [ ] X.8 GitHub Actions CI (build + tests)
 - [ ] X.9 README with dev setup instructions
+

@@ -158,3 +158,12 @@ Legend: `[ ]` todo · `[x]` done
 ### Companion / Ecosystem
 - [ ] F16 Web-based admin/config page
 - [ ] F17 Network diagnostics (signal strength, speed test)
+### More Features (backlog 2)
+- [ ] F18 Voice control (voice search/commands)
+- [ ] F19 Cloud gaming integration (GeForce Now etc.)
+- [ ] F20 Smart home integration (Home Assistant)
+- [ ] F21 Cloud photo frame / slideshow
+- [ ] F22 NAS browsing (SMB/NFS)
+- [ ] F23 DNS-level ad blocking
+- [ ] F24 Plugin/extension system
+- [ ] F25 Remote diagnostics and support

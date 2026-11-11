@@ -2,7 +2,7 @@
 
 Granular task list derived from `Design.md`. Check items off as completed; commit and push per sub-task.
 
-Legend: `[ ]` todo · `[x]` done
+Legend: `[ ]` todo · `[~]` in progress · `[x]` done
 
 ---
 
@@ -30,10 +30,11 @@ Legend: `[ ]` todo · `[x]` done
 - [x] M1.10 Focus engine: focusable interface + focus graph
 - [x] M1.11 Nearest-neighbor directional navigation
 - [ ] M1.12 Select / Back / Home handling in focus engine
-- [ ] M1.13 Focus visual (scale ~1.1x, shadow, label, dim unfocused)
+- [~] M1.13 Focus visual (scale ~1.1x, shadow, label, dim unfocused)
 - [x] M1.14 Keyboard input mapping to focus engine
 - [ ] M1.15 Fake `InputSource` for tests
 - [x] M1.16 Unit tests for focus engine navigation
+- [~] M1.17 Home screen layout polish (measured sizing, spacing, no overlap/clipping)
 
 ## M2 — App launching
 - [x] M2.1 `App` struct, `AppKind` enum (`AppWeb`, `AppFlatpak`, `AppNative`)
@@ -45,7 +46,7 @@ Legend: `[ ]` todo · `[x]` done
 - [x] M2.7 Process tracking (`Wait`, `Stop`)
 - [x] M2.8 Shell state machine (`Shell` / `App` / `Cast`)
 - [ ] M2.9 Home key interception before reaching apps
-- [ ] M2.10 uinput forwarder (D-pad/Select/Back as keyboard events)
+- [~] M2.10 uinput forwarder (D-pad/Select/Back as keyboard events)
 - [ ] M2.11 Prototype `cage` handoff with mpv + Chromium
 - [x] M2.12 Unit tests: state machine + registry parsing
 
@@ -76,7 +77,8 @@ Legend: `[ ]` todo · `[x]` done
 - [x] M5.4 Per-app profile directories for persistent logins
 - [ ] M5.5 Verify Chromium build ships Widevine on target OS
 - [ ] M5.6 Widevine quality assessment on Pi (per service)
-- [ ] M5.7 Music app decision (mpv-based or web app)\n- [x] M5.8 Google Meet web app entry (`meet.google.com`)
+- [~] M5.7 Music app decision (mpv-based or web app)
+- [x] M5.8 Google Meet web app entry (`meet.google.com`)
 
 ## M6 — DIAL
 - [x] M6.1 SSDP discovery responder (239.255.255.250:1900)
@@ -103,7 +105,7 @@ Legend: `[ ]` todo · `[x]` done
 - [x] M8.3 BlueZ D-Bus wrapper (Bluetooth)
 - [x] M8.4 Audio output selection (PipeWire)
 - [ ] M8.5 Display settings
-- [ ] M8.6 Device name setting
+- [~] M8.6 Device name setting
 - [ ] M8.7 About screen
 
 ## M9 — Miracast (stretch)
@@ -133,10 +135,21 @@ Legend: `[ ]` todo · `[x]` done
 
 ## Future Features (backlog)
 ### UX / Navigation
-- [ ] F1 Cursor/pointer mode fallback for D-pad-hard web apps\n  - [x] F1.1 Cursor controller package (`internal/input/cursor`)\n  - [x] F1.2 Cursor overlay widget (`internal/ui/cursor`)\n  - [ ] F1.3 Toggle gesture/keybinding and injection into web apps
-- [ ] F2 Universal search across apps and content\n  - [x] F2.1 Search package (`internal/search`)\n  - [x] F2.2 Search screen scaffold (`internal/ui/search`)\n  - [x] F2.3 Wire search results to app launching
-- [ ] F3 Quick-settings overlay (volume/brightness/Wi-Fi) from any screen\n  - [x] F3.1 Quick-settings overlay widget (`internal/ui/quicksettings`)\n  - [ ] F3.2 Wire volume/brightness/Wi-Fi controls\n  - [ ] F3.3 Global keybinding to open/close
-- [ ] F4 App folders, favorites, and reordering on home row\n  - [x] F4.1 Folder model (`internal/apps.Folder`)\n  - [x] F4.2 Persist folders and render on home
+- [ ] F1 Cursor/pointer mode fallback for D-pad-hard web apps
+  - [x] F1.1 Cursor controller package (`internal/input/cursor`)
+  - [x] F1.2 Cursor overlay widget (`internal/ui/cursor`)
+  - [ ] F1.3 Toggle gesture/keybinding and injection into web apps
+- [ ] F2 Universal search across apps and content
+  - [x] F2.1 Search package (`internal/search`)
+  - [x] F2.2 Search screen scaffold (`internal/ui/search`)
+  - [x] F2.3 Wire search results to app launching
+- [ ] F3 Quick-settings overlay (volume/brightness/Wi-Fi) from any screen
+  - [x] F3.1 Quick-settings overlay widget (`internal/ui/quicksettings`)
+  - [ ] F3.2 Wire volume/brightness/Wi-Fi controls
+  - [ ] F3.3 Global keybinding to open/close
+- [~] F4 App folders, favorites, and reordering on home row
+  - [x] F4.1 Folder model (`internal/apps.Folder`)
+  - [x] F4.2 Persist folders and render on home
 
 ### Ambient / Idle
 - [ ] F5 Screensaver/ambient mode (clock, weather, photos)
@@ -171,7 +184,10 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] F26 HDR / Dolby Vision playback support
 - [ ] F27 HDMI audio bitstream passthrough
 - [ ] F28 Live TV / IPTV with EPG
-- [ ] F29 Music service endpoints (Spotify/Tidal/Roon)\n  - [x] F29.1 Spotify web app entry\n  - [x] F29.2 Spotify Connect receiver (librespot) scaffold\n  - [ ] F29.3 Tidal/Roon endpoints (deferred: no test access)
+- [ ] F29 Music service endpoints (Spotify/Tidal/Roon)
+  - [x] F29.1 Spotify web app entry
+  - [x] F29.2 Spotify Connect receiver (librespot) scaffold
+  - [ ] F29.3 Tidal/Roon endpoints (deferred: no test access)
 - [ ] F30 Universal on-screen keyboard for text entry
 ### More Features (backlog 4)
 - [ ] F31 Offline mode / downloads for viewing
@@ -200,14 +216,14 @@ Legend: `[ ]` todo · `[x]` done
 ### More Features (backlog 9)
 - [ ] F50 Playnite-style game library manager (aggregate/launch from Steam, Epic, GOG, etc.)
 ### More Features (backlog 10)
-- [ ] F51 QR-based onboarding after network connect
+- [~] F51 QR-based onboarding after network connect
   - [x] F51.1 QR onboarding overlay (internal/ui/onboarding)
   - [x] F51.2 Trigger after Wi-Fi/Ethernet connection
   - [ ] F51.3 Configurable onboarding URL
   - [x] F51.4 Manual setup fallback (no phone) via Enter/Space
   - [x] F51.5 Manual setup form (device name + Wi-Fi scan) in settings
 ### More Features (backlog 11)
-- [ ] F52 Watchdog to restart stuck shell/apps
+- [~] F52 Watchdog to restart stuck shell/apps
   - [x] F52.1 Watchdog implementation (internal/system)
   - [x] F52.2 Wire into shell/app lifecycle
 ### F8 Profiles
@@ -219,4 +235,7 @@ Legend: `[ ]` todo · `[x]` done
 - [x] W2 Windows stubs for system (network/bluetooth/audio)
 - [x] W3 Windows virtual input (SendInput) scaffold
 - [x] W4 Windows app launching paths (mpv/chromium)
-- [ ] W5 Full Windows port (replace cage/D-Bus)\n  - [x] W5.1 Kiosk mode (borderless fullscreen) on Windows\n  - [ ] W5.2 Windows system services (network/bluetooth/audio)\n  - [ ] W5.3 Windows input injection (SendInput) integration
+- [~] W5 Full Windows port (replace cage/D-Bus)
+  - [x] W5.1 Kiosk mode (borderless fullscreen) on Windows
+  - [ ] W5.2 Windows system services (network/bluetooth/audio)
+  - [ ] W5.3 Windows input injection (SendInput) integration

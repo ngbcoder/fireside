@@ -195,3 +195,5 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] F46 Chromecast audio receiver
 - [ ] F47 Bluetooth LE support
 - [ ] F48 Wi-Fi 6 / Ethernet priority
+### More Features (backlog 8)
+- [ ] F49 File manager

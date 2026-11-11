@@ -197,3 +197,5 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] F48 Wi-Fi 6 / Ethernet priority
 ### More Features (backlog 8)
 - [ ] F49 File manager
+### More Features (backlog 9)
+- [ ] F50 Playnite-style game library manager (aggregate/launch from Steam, Epic, GOG, etc.)

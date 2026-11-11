@@ -181,3 +181,10 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] F35 Calendar integration
 - [ ] F36 Music visualizer
 - [ ] F37 Karaoke mode
+### More Features (backlog 5)
+- [ ] F38 Game controller support / gaming mode
+- [ ] F39 4K/8K and Dolby Atmos support
+- [ ] F40 Subtitle customization and audio descriptions
+- [ ] F41 AirPlay audio receiver mode
+- [ ] F42 Custom launchers and user scripts
+- [ ] F43 Privacy dashboard (data/permissions)

@@ -14,7 +14,7 @@ Legend: `[ ]` todo · `[x]` done
 - [x] M0.5 Document nested `cage` dev loop (VMSVGA, Guest Additions)
 - [ ] M0.6 Verify Gio window renders under nested `cage` in the VM
 - [x] M0.7 Add structured logging (slog)
-- [ ] M0.8 Cross-compile check: `GOOS=linux GOARCH=arm64 go build`
+- [ ] M0.8 Cross-compile check: `GOOS=linux GOARCH=arm64 go build` (deferred: needs aarch64 C cross-toolchain)
 - [x] M0.9 Add `.gitignore` (binaries, profiles, build artifacts)
 
 ## M1 — Launcher UI

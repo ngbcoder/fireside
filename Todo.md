@@ -87,8 +87,8 @@ Legend: `[ ]` todo · `[x]` done
 - [x] M6.6 DIAL protocol plugin implementing `Protocol` interface
 
 ## M7 — App Store v1
-- [ ] M7.1 Curated web app registry format (JSON/YAML)
-- [ ] M7.2 Store backend interface
+- [x] M7.1 Curated web app registry format (JSON/YAML)
+- [x] M7.2 Store backend interface
 - [ ] M7.3 Featured shelf UI
 - [ ] M7.4 Popular row with Get/Installed buttons
 - [ ] M7.5 Category cards UI

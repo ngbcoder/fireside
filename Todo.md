@@ -214,3 +214,9 @@ Legend: `[ ]` todo · `[x]` done
   - [x] F8.1 Profile manager (internal/profiles)
   - [x] F8.2 Profile display in settings
   - [x] F8.3 Switch active profile and persist
+### Platform: Windows
+- [x] W1 Linux-only system package gated with build tags
+- [x] W2 Windows stubs for system (network/bluetooth/audio)
+- [ ] W3 Windows input sources (keyboard only for now)
+- [ ] W4 Windows app launching paths (mpv/chromium)
+- [ ] W5 Full Windows port (replace cage/D-Bus)

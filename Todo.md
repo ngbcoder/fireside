@@ -61,13 +61,13 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] M3.9 Thermals check under sustained playback
 
 ## M4 — AirPlay
-- [ ] M4.1 UxPlay supervisor (start/stop/process mgmt)
-- [ ] M4.2 Parse UxPlay lifecycle/session events
+- [x] M4.1 UxPlay supervisor (start/stop/process mgmt)
+- [x] M4.2 Parse UxPlay lifecycle/session events
 - [ ] M4.3 Screen handoff on `SessionStarted`, return on `SessionEnded`
-- [ ] M4.4 Casting overlay UI ("Casting from [DEVICE]")
-- [ ] M4.5 AirPlay protocol plugin implementing `Protocol` interface
+- [x] M4.4 Casting overlay UI ("Casting from [DEVICE]")
+- [x] M4.5 AirPlay protocol plugin implementing `Protocol` interface
 - [ ] M4.6 Test cast from iPhone/iPad/Mac
-- [ ] M4.7 Fake `Protocol` for tests
+- [x] M4.7 Fake `Protocol` for tests
 
 ## M5 — Web apps
 - [ ] M5.1 YouTube TV web app entry (`youtube.com/tv`) + UA override

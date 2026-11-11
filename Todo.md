@@ -128,3 +128,33 @@ Legend: `[ ]` todo · `[x]` done
 - [x] X.8 GitHub Actions CI (build + tests)
 - [x] X.9 README with dev setup instructions
 
+
+---
+
+## Future Features (backlog)
+### UX / Navigation
+- [ ] F1 Cursor/pointer mode fallback for D-pad-hard web apps
+- [ ] F2 Universal search across apps and content
+- [ ] F3 Quick-settings overlay (volume/brightness/Wi-Fi) from any screen
+- [ ] F4 App folders, favorites, and reordering on home row
+
+### Ambient / Idle
+- [ ] F5 Screensaver/ambient mode (clock, weather, photos)
+- [ ] F6 Sleep timer and CEC auto-standby
+- [ ] F7 Recently used row with resume deep-links
+
+### Personalization & Accessibility
+- [ ] F8 Multiple user profiles with separate logins
+- [ ] F9 Parental controls / PIN-gated apps
+- [ ] F10 High-contrast and large-text accessibility modes
+- [ ] F11 Theming (accent color, wallpaper picker)
+
+### System & Reliability
+- [ ] F12 Watchdog to restart stuck shell/apps
+- [ ] F13 Auto-update for shell and store apps
+- [ ] F14 Backup/restore settings (file/USB)
+- [ ] F15 Bluetooth audio pairing and output switching UI
+
+### Companion / Ecosystem
+- [ ] F16 Web-based admin/config page
+- [ ] F17 Network diagnostics (signal strength, speed test)

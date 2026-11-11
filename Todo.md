@@ -188,3 +188,5 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] F41 AirPlay audio receiver mode
 - [ ] F42 Custom launchers and user scripts
 - [ ] F43 Privacy dashboard (data/permissions)
+### More Features (backlog 6)
+- [ ] F44 Full web browser app

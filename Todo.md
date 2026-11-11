@@ -167,3 +167,9 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] F23 DNS-level ad blocking
 - [ ] F24 Plugin/extension system
 - [ ] F25 Remote diagnostics and support
+### More Features (backlog 3)
+- [ ] F26 HDR / Dolby Vision playback support
+- [ ] F27 HDMI audio bitstream passthrough
+- [ ] F28 Live TV / IPTV with EPG
+- [ ] F29 Music service endpoints (Spotify/Tidal/Roon)
+- [ ] F30 Universal on-screen keyboard for text entry

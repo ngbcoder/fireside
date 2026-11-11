@@ -173,3 +173,11 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] F28 Live TV / IPTV with EPG
 - [ ] F29 Music service endpoints (Spotify/Tidal/Roon)
 - [ ] F30 Universal on-screen keyboard for text entry
+### More Features (backlog 4)
+- [ ] F31 Offline mode / downloads for viewing
+- [ ] F32 CEC one-touch play and passthrough
+- [ ] F33 App sideloading from file/URL
+- [ ] F34 Weather widget on home screen
+- [ ] F35 Calendar integration
+- [ ] F36 Music visualizer
+- [ ] F37 Karaoke mode

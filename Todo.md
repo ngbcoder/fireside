@@ -12,7 +12,7 @@ Legend: `[ ]` todo · `[x]` done
 - [x] M0.3 Create `cmd/tvshell/main.go` opening a Gio window
 - [x] M0.4 Add `Makefile`/scripts for build and run
 - [x] M0.5 Document nested `cage` dev loop (VMSVGA, Guest Additions)
-- [ ] M0.6 Verify Gio window renders under nested `cage` in the VM
+- [ ] M0.6 Verify Gio window renders under nested `cage` in the VM (deferred: needs VM)
 - [x] M0.7 Add structured logging (slog)
 - [ ] M0.8 Cross-compile check: `GOOS=linux GOARCH=arm64 go build` (deferred: needs aarch64 C cross-toolchain)
 - [x] M0.9 Add `.gitignore` (binaries, profiles, build artifacts)

@@ -125,6 +125,6 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] X.5 `internal/ipc` unix socket JSON protocol
 - [x] X.6 `internal/system` D-Bus wrappers (network, bluetooth, audio)
 - [x] X.7 `internal/state` shell state machine
-- [ ] X.8 GitHub Actions CI (build + tests)
-- [ ] X.9 README with dev setup instructions
+- [x] X.8 GitHub Actions CI (build + tests)
+- [x] X.9 README with dev setup instructions
 

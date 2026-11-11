@@ -11,6 +11,7 @@ import (
 	"gioui.org/unit"
 	"gioui.org/widget/material"
 
+	"github.com/ngbcoder/fireside/internal/apps"
 	"github.com/ngbcoder/fireside/internal/ui/focus"
 	"github.com/ngbcoder/fireside/internal/ui/theme"
 )
@@ -24,6 +25,9 @@ type Screen struct {
 
 	Tabs []string
 	Apps []AppItem
+
+	Registry apps.Registry
+	Folders  []apps.Folder
 
 	tabFocusIDs []string
 	appFocusIDs []string
@@ -93,6 +97,9 @@ func (s *Screen) Layout(gtx layout.Context) layout.Dimensions {
 			}),
 			layout.Rigid(func(gtx layout.Context) layout.Dimensions {
 				return s.layoutAppRow(gtx)
+			}),
+			layout.Rigid(func(gtx layout.Context) layout.Dimensions {
+				return s.layoutFolders(gtx)
 			}),
 			layout.Rigid(func(gtx layout.Context) layout.Dimensions {
 				return s.layoutCastShelf(gtx)
@@ -202,6 +209,24 @@ func (s *Screen) drawApp(gtx layout.Context, a AppItem, focused bool) layout.Dim
 	l.Color = theme.ColorPrimary
 	l.Alignment = text.Middle
 	return l.Layout(gtx)
+}
+
+func (s *Screen) layoutFolders(gtx layout.Context) layout.Dimensions {
+	if len(s.Folders) == 0 {
+		return layout.Dimensions{}
+	}
+	return layout.Flex{Axis: layout.Vertical}.Layout(gtx, func() []layout.FlexChild {
+		children := make([]layout.FlexChild, len(s.Folders))
+		for i, f := range s.Folders {
+			i, f := i, f
+			children[i] = layout.Rigid(func(gtx layout.Context) layout.Dimensions {
+				l := material.H3(s.Theme, f.Name)
+				l.Color = theme.ColorPrimary
+				return l.Layout(gtx)
+			})
+		}
+		return children
+	}()...)
 }
 
 func (s *Screen) layoutCastShelf(gtx layout.Context) layout.Dimensions {

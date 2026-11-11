@@ -134,9 +134,9 @@ Legend: `[ ]` todo · `[x]` done
 ## Future Features (backlog)
 ### UX / Navigation
 - [ ] F1 Cursor/pointer mode fallback for D-pad-hard web apps\n  - [x] F1.1 Cursor controller package (`internal/input/cursor`)\n  - [x] F1.2 Cursor overlay widget (`internal/ui/cursor`)\n  - [ ] F1.3 Toggle gesture/keybinding and injection into web apps
-- [ ] F2 Universal search across apps and content\n  - [x] F2.1 Search package (`internal/search`)\n  - [x] F2.2 Search screen scaffold (`internal/ui/search`)\n  - [ ] F2.3 Wire search results to app launching
+- [ ] F2 Universal search across apps and content\n  - [x] F2.1 Search package (`internal/search`)\n  - [x] F2.2 Search screen scaffold (`internal/ui/search`)\n  - [x] F2.3 Wire search results to app launching
 - [ ] F3 Quick-settings overlay (volume/brightness/Wi-Fi) from any screen\n  - [x] F3.1 Quick-settings overlay widget (`internal/ui/quicksettings`)\n  - [ ] F3.2 Wire volume/brightness/Wi-Fi controls\n  - [ ] F3.3 Global keybinding to open/close
-- [ ] F4 App folders, favorites, and reordering on home row\n  - [x] F4.1 Folder model (`internal/apps.Folder`)\n  - [ ] F4.2 Persist folders and render on home
+- [ ] F4 App folders, favorites, and reordering on home row\n  - [x] F4.1 Folder model (`internal/apps.Folder`)\n  - [x] F4.2 Persist folders and render on home
 
 ### Ambient / Idle
 - [ ] F5 Screensaver/ambient mode (clock, weather, photos)

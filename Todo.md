@@ -171,7 +171,7 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] F26 HDR / Dolby Vision playback support
 - [ ] F27 HDMI audio bitstream passthrough
 - [ ] F28 Live TV / IPTV with EPG
-- [ ] F29 Music service endpoints (Spotify/Tidal/Roon)
+- [ ] F29 Music service endpoints (Spotify/Tidal/Roon)\n  - [x] F29.1 Spotify web app entry\n  - [x] F29.2 Spotify Connect receiver (librespot) scaffold\n  - [ ] F29.3 Tidal/Roon endpoints
 - [ ] F30 Universal on-screen keyboard for text entry
 ### More Features (backlog 4)
 - [ ] F31 Offline mode / downloads for viewing

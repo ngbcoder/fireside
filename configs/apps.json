@@ -23,6 +23,13 @@
       "profile_dir": "profiles/appletv"
     },
     {
+      "id": "spotify",
+      "name": "Spotify",
+      "kind": 0,
+      "url": "https://open.spotify.com",
+      "profile_dir": "profiles/spotify"
+    },
+    {
       "id": "media",
       "name": "Media Player",
       "kind": 2,

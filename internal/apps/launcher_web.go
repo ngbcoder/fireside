@@ -3,6 +3,7 @@ package apps
 import (
 	"context"
 	"fmt"
+	"runtime"
 )
 
 // WebLauncher launches web apps in kiosk Chromium.
@@ -14,6 +15,9 @@ func (w WebLauncher) bin() string {
 	if w.ChromiumBin != "" {
 		return w.ChromiumBin
 	}
+	if runtime.GOOS == "windows" {
+		return "chromium.exe"
+	}
 	return "chromium"
 }
 
@@ -24,7 +28,9 @@ func (w WebLauncher) Launch(ctx context.Context, app App) (Process, error) {
 	args := []string{
 		"--app=" + app.URL,
 		"--kiosk",
-		"--ozone-platform=wayland",
+	}
+	if runtime.GOOS != "windows" {
+		args = append(args, "--ozone-platform=wayland")
 	}
 	if app.UserAgent != "" {
 		args = append(args, "--user-agent="+app.UserAgent)

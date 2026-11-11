@@ -203,7 +203,9 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] F51 QR-based onboarding after network connect
   - [x] F51.1 QR onboarding overlay (internal/ui/onboarding)
   - [x] F51.2 Trigger after Wi-Fi/Ethernet connection
-  - [ ] F51.3 Configurable onboarding URL\n  - [x] F51.4 Manual setup fallback (no phone) via Enter/Space
+  - [ ] F51.3 Configurable onboarding URL
+  - [x] F51.4 Manual setup fallback (no phone) via Enter/Space
+  - [x] F51.5 Manual setup form (device name + Wi-Fi scan) in settings
 ### More Features (backlog 11)
 - [ ] F52 Watchdog to restart stuck shell/apps
   - [x] F52.1 Watchdog implementation (internal/system)

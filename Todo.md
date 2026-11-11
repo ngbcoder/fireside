@@ -190,3 +190,8 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] F43 Privacy dashboard (data/permissions)
 ### More Features (backlog 6)
 - [ ] F44 Full web browser app
+### More Features (backlog 7)
+- [ ] F45 Multi-language UI (i18n)
+- [ ] F46 Chromecast audio receiver
+- [ ] F47 Bluetooth LE support
+- [ ] F48 Wi-Fi 6 / Ethernet priority

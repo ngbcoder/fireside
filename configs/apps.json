@@ -1,0 +1,32 @@
+{
+  "apps": [
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "kind": 0,
+      "url": "https://www.youtube.com/tv",
+      "user_agent": "Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36",
+      "profile_dir": "profiles/youtube"
+    },
+    {
+      "id": "disney",
+      "name": "Disney+",
+      "kind": 0,
+      "url": "https://www.disneyplus.com",
+      "profile_dir": "profiles/disney"
+    },
+    {
+      "id": "appletv",
+      "name": "Apple TV",
+      "kind": 0,
+      "url": "https://tv.apple.com",
+      "profile_dir": "profiles/appletv"
+    },
+    {
+      "id": "media",
+      "name": "Media Player",
+      "kind": 2,
+      "exec": "mpv"
+    }
+  ]
+}

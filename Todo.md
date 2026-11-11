@@ -70,10 +70,10 @@ Legend: `[ ]` todo · `[x]` done
 - [x] M4.7 Fake `Protocol` for tests
 
 ## M5 — Web apps
-- [ ] M5.1 YouTube TV web app entry (`youtube.com/tv`) + UA override
-- [ ] M5.2 Disney+ web app entry
-- [ ] M5.3 Apple TV web app entry (`tv.apple.com`)
-- [ ] M5.4 Per-app profile directories for persistent logins
+- [x] M5.1 YouTube TV web app entry (`youtube.com/tv`) + UA override
+- [x] M5.2 Disney+ web app entry
+- [x] M5.3 Apple TV web app entry (`tv.apple.com`)
+- [x] M5.4 Per-app profile directories for persistent logins
 - [ ] M5.5 Verify Chromium build ships Widevine on target OS
 - [ ] M5.6 Widevine quality assessment on Pi (per service)
 - [ ] M5.7 Music app decision (mpv-based or web app)

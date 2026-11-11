@@ -36,18 +36,18 @@ Legend: `[ ]` todo · `[x]` done
 - [x] M1.16 Unit tests for focus engine navigation
 
 ## M2 — App launching
-- [ ] M2.1 `App` struct, `AppKind` enum (`AppWeb`, `AppFlatpak`, `AppNative`)
-- [ ] M2.2 `Launcher` and `Process` interfaces
-- [ ] M2.3 App registry loader (JSON/YAML config)
-- [ ] M2.4 mpv launcher implementation
-- [ ] M2.5 Chromium web app launcher (`--app`, Wayland backend, profile dir)
-- [ ] M2.6 User-agent override support
-- [ ] M2.7 Process tracking (`Wait`, `Stop`)
-- [ ] M2.8 Shell state machine (`Shell` / `App` / `Cast`)
+- [x] M2.1 `App` struct, `AppKind` enum (`AppWeb`, `AppFlatpak`, `AppNative`)
+- [x] M2.2 `Launcher` and `Process` interfaces
+- [x] M2.3 App registry loader (JSON/YAML config)
+- [x] M2.4 mpv launcher implementation
+- [x] M2.5 Chromium web app launcher (`--app`, Wayland backend, profile dir)
+- [x] M2.6 User-agent override support
+- [x] M2.7 Process tracking (`Wait`, `Stop`)
+- [x] M2.8 Shell state machine (`Shell` / `App` / `Cast`)
 - [ ] M2.9 Home key interception before reaching apps
 - [ ] M2.10 uinput forwarder (D-pad/Select/Back as keyboard events)
 - [ ] M2.11 Prototype `cage` handoff with mpv + Chromium
-- [ ] M2.12 Unit tests: state machine + registry parsing
+- [x] M2.12 Unit tests: state machine + registry parsing
 
 ## M3 — Pi bring-up
 - [ ] M3.1 Flash Raspberry Pi OS Lite 64-bit; enable SSH
@@ -124,7 +124,7 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] X.4 `internal/cast/session` shared session model (`SessionKind`, `SessionEvent`, `Protocol`)
 - [ ] X.5 `internal/ipc` unix socket JSON protocol
 - [ ] X.6 `internal/system` D-Bus wrappers (network, bluetooth, audio)
-- [ ] X.7 `internal/state` shell state machine
+- [x] X.7 `internal/state` shell state machine
 - [ ] X.8 GitHub Actions CI (build + tests)
 - [ ] X.9 README with dev setup instructions
 

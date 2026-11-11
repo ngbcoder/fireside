@@ -79,12 +79,12 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] M5.7 Music app decision (mpv-based or web app)
 
 ## M6 — DIAL
-- [ ] M6.1 SSDP discovery responder (239.255.255.250:1900)
-- [ ] M6.2 Device description XML endpoint
-- [ ] M6.3 `/apps/<name>` endpoints
-- [ ] M6.4 YouTube launch with DIAL pairing params
+- [x] M6.1 SSDP discovery responder (239.255.255.250:1900)
+- [x] M6.2 Device description XML endpoint
+- [x] M6.3 `/apps/<name>` endpoints
+- [x] M6.4 YouTube launch with DIAL pairing params
 - [ ] M6.5 Test with current YouTube/Netflix sender apps
-- [ ] M6.6 DIAL protocol plugin implementing `Protocol` interface
+- [x] M6.6 DIAL protocol plugin implementing `Protocol` interface
 
 ## M7 — App Store v1
 - [ ] M7.1 Curated web app registry format (JSON/YAML)

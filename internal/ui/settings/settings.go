@@ -19,6 +19,7 @@ type Screen struct {
 	Networks    []string
 	Status      string
 	Profiles    *profiles.Manager
+	ProfileBtns []widget.Clickable
 }
 
 // New creates a settings screen.
@@ -66,13 +67,29 @@ func (s *Screen) Layout(gtx layout.Context) layout.Dimensions {
 			if s.Profiles == nil {
 				return layout.Dimensions{}
 			}
+			// ensure buttons
+			if len(s.ProfileBtns) != len(s.Profiles.Profiles) {
+				s.ProfileBtns = make([]widget.Clickable, len(s.Profiles.Profiles))
+			}
 			l := material.H3(s.Theme, "Profiles")
 			l.Color = theme.ColorPrimary
 			dims := l.Layout(gtx)
-			active, _ := s.Profiles.Active()
-			l2 := material.Body2(s.Theme, "Active: "+active.Name)
-			l2.Color = theme.ColorSecondary
-			l2.Layout(gtx)
+			for i, p := range s.Profiles.Profiles {
+				i, p := i, p
+				for s.ProfileBtns[i].Clicked(gtx) {
+					if s.Profiles.Switch(p.ID) {
+						_ = s.Profiles.Save()
+						s.Status = "Switched to " + p.Name
+					}
+				}
+				active, _ := s.Profiles.Active()
+				label := p.Name
+				if p.ID == active.ID {
+					label += " (active)"
+				}
+				btn := material.Button(s.Theme, &s.ProfileBtns[i], label)
+				btn.Layout(gtx)
+			}
 			return dims
 		}),
 		layout.Rigid(func(gtx layout.Context) layout.Dimensions {

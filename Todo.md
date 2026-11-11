@@ -213,4 +213,4 @@ Legend: `[ ]` todo · `[x]` done
 ### F8 Profiles
   - [x] F8.1 Profile manager (internal/profiles)
   - [x] F8.2 Profile display in settings
-  - [ ] F8.3 Switch active profile and persist
+  - [x] F8.3 Switch active profile and persist

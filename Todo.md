@@ -199,3 +199,8 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] F49 File manager
 ### More Features (backlog 9)
 - [ ] F50 Playnite-style game library manager (aggregate/launch from Steam, Epic, GOG, etc.)
+### More Features (backlog 10)
+- [ ] F51 QR-based onboarding after network connect
+  - [x] F51.1 QR onboarding overlay (internal/ui/onboarding)
+  - [ ] F51.2 Trigger after Wi-Fi/Ethernet connection
+  - [ ] F51.3 Configurable onboarding URL

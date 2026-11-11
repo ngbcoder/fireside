@@ -6,6 +6,7 @@ import (
 	"gioui.org/widget"
 	"gioui.org/widget/material"
 
+	"github.com/ngbcoder/fireside/internal/profiles"
 	"github.com/ngbcoder/fireside/internal/ui/theme"
 )
 
@@ -17,6 +18,7 @@ type Screen struct {
 	ScanBtn     widget.Clickable
 	Networks    []string
 	Status      string
+	Profiles    *profiles.Manager
 }
 
 // New creates a settings screen.
@@ -61,8 +63,17 @@ func (s *Screen) Layout(gtx layout.Context) layout.Dimensions {
 			return btn.Layout(gtx)
 		}),
 		layout.Rigid(func(gtx layout.Context) layout.Dimensions {
-			btn := material.Button(s.Theme, &s.ScanBtn, "Scan Wi-Fi")
-			return btn.Layout(gtx)
+			if s.Profiles == nil {
+				return layout.Dimensions{}
+			}
+			l := material.H3(s.Theme, "Profiles")
+			l.Color = theme.ColorPrimary
+			dims := l.Layout(gtx)
+			active, _ := s.Profiles.Active()
+			l2 := material.Body2(s.Theme, "Active: "+active.Name)
+			l2.Color = theme.ColorSecondary
+			l2.Layout(gtx)
+			return dims
 		}),
 		layout.Rigid(func(gtx layout.Context) layout.Dimensions {
 			for _, n := range s.Networks {

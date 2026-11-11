@@ -210,3 +210,7 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] F52 Watchdog to restart stuck shell/apps
   - [x] F52.1 Watchdog implementation (internal/system)
   - [x] F52.2 Wire into shell/app lifecycle
+### F8 Profiles
+  - [x] F8.1 Profile manager (internal/profiles)
+  - [x] F8.2 Profile display in settings
+  - [ ] F8.3 Switch active profile and persist

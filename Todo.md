@@ -76,7 +76,7 @@ Legend: `[ ]` todo · `[x]` done
 - [x] M5.4 Per-app profile directories for persistent logins
 - [ ] M5.5 Verify Chromium build ships Widevine on target OS
 - [ ] M5.6 Widevine quality assessment on Pi (per service)
-- [ ] M5.7 Music app decision (mpv-based or web app)
+- [ ] M5.7 Music app decision (mpv-based or web app)\n- [x] M5.8 Google Meet web app entry (`meet.google.com`)
 
 ## M6 — DIAL
 - [x] M6.1 SSDP discovery responder (239.255.255.250:1900)

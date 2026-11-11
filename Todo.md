@@ -202,5 +202,9 @@ Legend: `[ ]` todo · `[x]` done
 ### More Features (backlog 10)
 - [ ] F51 QR-based onboarding after network connect
   - [x] F51.1 QR onboarding overlay (internal/ui/onboarding)
-  - [ ] F51.2 Trigger after Wi-Fi/Ethernet connection
+  - [x] F51.2 Trigger after Wi-Fi/Ethernet connection
   - [ ] F51.3 Configurable onboarding URL\n  - [x] F51.4 Manual setup fallback (no phone) via Enter/Space
+### More Features (backlog 11)
+- [ ] F52 Watchdog to restart stuck shell/apps
+  - [x] F52.1 Watchdog implementation (internal/system)
+  - [ ] F52.2 Wire into shell/app lifecycle

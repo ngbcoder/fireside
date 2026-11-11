@@ -98,10 +98,10 @@ Legend: `[ ]` todo · `[x]` done
 - [ ] M7.9 Unit tests: registry parsing
 
 ## M8 — Settings
-- [ ] M8.1 Settings screen scaffold
-- [ ] M8.2 NetworkManager D-Bus wrapper (Wi-Fi)
-- [ ] M8.3 BlueZ D-Bus wrapper (Bluetooth)
-- [ ] M8.4 Audio output selection (PipeWire)
+- [x] M8.1 Settings screen scaffold
+- [x] M8.2 NetworkManager D-Bus wrapper (Wi-Fi)
+- [x] M8.3 BlueZ D-Bus wrapper (Bluetooth)
+- [x] M8.4 Audio output selection (PipeWire)
 - [ ] M8.5 Display settings
 - [ ] M8.6 Device name setting
 - [ ] M8.7 About screen
@@ -123,7 +123,7 @@ Legend: `[ ]` todo · `[x]` done
 - [x] X.3 Keyboard input source
 - [x] X.4 `internal/cast/session` shared session model (`SessionKind`, `SessionEvent`, `Protocol`)
 - [ ] X.5 `internal/ipc` unix socket JSON protocol
-- [ ] X.6 `internal/system` D-Bus wrappers (network, bluetooth, audio)
+- [x] X.6 `internal/system` D-Bus wrappers (network, bluetooth, audio)
 - [x] X.7 `internal/state` shell state machine
 - [ ] X.8 GitHub Actions CI (build + tests)
 - [ ] X.9 README with dev setup instructions

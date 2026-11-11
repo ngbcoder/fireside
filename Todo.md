@@ -118,10 +118,10 @@ Legend: `[ ]` todo · `[x]` done
 ---
 
 ## Cross-cutting / Infrastructure
-- [ ] X.1 Package layout per `Design.md` §9
-- [ ] X.2 `internal/input` package: `Key`, `Action`, `InputEvent`, `InputSource` interface
-- [ ] X.3 Keyboard input source
-- [ ] X.4 `internal/cast/session` shared session model (`SessionKind`, `SessionEvent`, `Protocol`)
+- [x] X.1 Package layout per `Design.md` §9
+- [x] X.2 `internal/input` package: `Key`, `Action`, `InputEvent`, `InputSource` interface
+- [x] X.3 Keyboard input source
+- [x] X.4 `internal/cast/session` shared session model (`SessionKind`, `SessionEvent`, `Protocol`)
 - [ ] X.5 `internal/ipc` unix socket JSON protocol
 - [ ] X.6 `internal/system` D-Bus wrappers (network, bluetooth, audio)
 - [x] X.7 `internal/state` shell state machine

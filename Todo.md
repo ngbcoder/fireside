@@ -7,15 +7,15 @@ Legend: `[ ]` todo · `[x]` done
 ---
 
 ## M0 — Skeleton
-- [ ] M0.1 Initialize Go module (`go.mod`) with module path (e.g. `github.com/ngbcoder/fireside`)
-- [ ] M0.2 Add Gio (gioui.org) dependency
-- [ ] M0.3 Create `cmd/tvshell/main.go` opening a Gio window
-- [ ] M0.4 Add `Makefile`/scripts for build and run
-- [ ] M0.5 Document nested `cage` dev loop (VMSVGA, Guest Additions)
+- [x] M0.1 Initialize Go module (`go.mod`) with module path (e.g. `github.com/ngbcoder/fireside`)
+- [x] M0.2 Add Gio (gioui.org) dependency
+- [x] M0.3 Create `cmd/tvshell/main.go` opening a Gio window
+- [x] M0.4 Add `Makefile`/scripts for build and run
+- [x] M0.5 Document nested `cage` dev loop (VMSVGA, Guest Additions)
 - [ ] M0.6 Verify Gio window renders under nested `cage` in the VM
-- [ ] M0.7 Add structured logging (slog)
+- [x] M0.7 Add structured logging (slog)
 - [ ] M0.8 Cross-compile check: `GOOS=linux GOARCH=arm64 go build`
-- [ ] M0.9 Add `.gitignore` (binaries, profiles, build artifacts)
+- [x] M0.9 Add `.gitignore` (binaries, profiles, build artifacts)
 
 ## M1 — Launcher UI
 - [ ] M1.1 Create `internal/ui/theme` package (colors, spacing, typography at 1080p)

@@ -219,4 +219,4 @@ Legend: `[ ]` todo · `[x]` done
 - [x] W2 Windows stubs for system (network/bluetooth/audio)
 - [x] W3 Windows virtual input (SendInput) scaffold
 - [x] W4 Windows app launching paths (mpv/chromium)
-- [ ] W5 Full Windows port (replace cage/D-Bus)
+- [ ] W5 Full Windows port (replace cage/D-Bus)\n  - [x] W5.1 Kiosk mode (borderless fullscreen) on Windows\n  - [ ] W5.2 Windows system services (network/bluetooth/audio)\n  - [ ] W5.3 Windows input injection (SendInput) integration

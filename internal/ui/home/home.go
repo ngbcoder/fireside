@@ -216,14 +216,31 @@ func (s *Screen) layoutFolders(gtx layout.Context) layout.Dimensions {
 		return layout.Dimensions{}
 	}
 	return layout.Flex{Axis: layout.Vertical}.Layout(gtx, func() []layout.FlexChild {
-		children := make([]layout.FlexChild, len(s.Folders))
-		for i, f := range s.Folders {
-			i, f := i, f
-			children[i] = layout.Rigid(func(gtx layout.Context) layout.Dimensions {
+		children := make([]layout.FlexChild, 0, len(s.Folders))
+		for _, f := range s.Folders {
+			f := f
+			children = append(children, layout.Rigid(func(gtx layout.Context) layout.Dimensions {
 				l := material.H3(s.Theme, f.Name)
 				l.Color = theme.ColorPrimary
-				return l.Layout(gtx)
-			})
+				dims := l.Layout(gtx)
+				// render apps in folder
+				apps := f.AppsInFolder(s.Registry)
+				row := layout.Flex{Axis: layout.Horizontal, Spacing: layout.SpaceStart}
+				rowDims := row.Layout(gtx, func() []layout.FlexChild {
+					ch := make([]layout.FlexChild, len(apps))
+					for i, a := range apps {
+						i, a := i, a
+						ch[i] = layout.Rigid(func(gtx layout.Context) layout.Dimensions {
+							l := material.Body2(s.Theme, a.Name)
+							l.Color = theme.ColorSecondary
+							return l.Layout(gtx)
+						})
+					}
+					return ch
+				}()...)
+				_ = rowDims
+				return dims
+			}))
 		}
 		return children
 	}()...)

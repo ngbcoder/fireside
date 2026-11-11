@@ -122,7 +122,7 @@ Legend: `[ ]` todo · `[x]` done
 - [x] X.2 `internal/input` package: `Key`, `Action`, `InputEvent`, `InputSource` interface
 - [x] X.3 Keyboard input source
 - [x] X.4 `internal/cast/session` shared session model (`SessionKind`, `SessionEvent`, `Protocol`)
-- [ ] X.5 `internal/ipc` unix socket JSON protocol
+- [x] X.5 `internal/ipc` unix socket JSON protocol
 - [x] X.6 `internal/system` D-Bus wrappers (network, bluetooth, audio)
 - [x] X.7 `internal/state` shell state machine
 - [x] X.8 GitHub Actions CI (build + tests)
